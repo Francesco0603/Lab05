@@ -1,3 +1,10 @@
+from dataclasses import dataclass
+
+@dataclass
 class Studente:
-    def __init__(self):
-        pass
+    matricola: int
+    nome: str
+    cognome: str
+    CDS: str
+
+
